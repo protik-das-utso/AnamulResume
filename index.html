@@ -4,51 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kazi Anamjul Haque</title>
+    <title>Kazi Anamul Haque</title>
     <style>
-        body{
-            margin: 50px;
-            padding: 50px;
+        /* Basic Reset & Global Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        .container{
-            width: 900px;
-            padding: 5px;
-            margin: 0 auto;
-            background-color: white;
-            box-shadow: 1px 5px 25px black;
-            border-radius: 25px;
 
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+            background-color: #f0f2f5; /* Light background */
+            color: #333; /* Text color */
+            line-height: 1.6;
+            padding: 40px;
         }
-        header{
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Smooth shadow */
+        }
+
+        header {
             display: flex;
             justify-content: space-between;
-            margin: 20px;
-            padding: 5px;
+            align-items: center;
+            margin-bottom: 20px;
         }
-        .header-text{
-            width: 800px;
+
+        .header-text h1 {
+            margin-bottom: 8px;
+            color: #005a8d; /* Theme color */
         }
-        .img img{
-            width: 150px;
-            border-radius: 25px;
+
+        .header-text p {
+            font-size: 14px;
         }
-        hr{
+
+        .img img {
+            width: 140px;
+            border-radius: 50%; /* Circular profile image */
+            border: 3px solid #005a8d;
+        }
+
+        hr {
             height: 2px;
-            background-color: black;
-            width: 95%;
-            margin-left: 0px;
+            background-color: #ccc;
+            border: none;
+            margin: 10px 0;
         }
-        section{
-            margin: 20px;
+
+        section {
+            margin-top: 25px;
         }
-        section p{
-            margin: 0px;
-        }
-        h3{
-            margin: 0px;
-        }
-        .project h3{
+
+        section h2 {
+            color: #005a8d;
             margin-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        section h3 {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        section p {
+            margin-bottom: 8px;
+        }
+
+        .project {
+            margin-left: 15px;
+        }
+
+        a {
+            color: #005a8d;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -58,55 +99,54 @@
             <div class="header-text">
                 <h1>Hello</h1>
                 <h1>I'm Kazi Anamul Haque</h1>
-                <p>Phone: <a href="tel:+8801703989455">+8801703989455</a> | Email: <a href="mailto:anamulhaque9455@gmail.com">anamulhaque9455@gmail.com</a></p>
+                <p>Phone: <a href="tel:+8801703989455">+8801703989455</a> | 
+                   Email: <a href="mailto:anamulhaque9455@gmail.com">anamulhaque9455@gmail.com</a>
+                </p>
                 <hr>
             </div>
-            
             <div class="img">
                 <img src="./img/232-15-210.jpg" alt="Kazi Anamul Haque">
             </div>
         </header>
+
         <section>
             <h2>Education</h2>
-            <h3>B.Sc. in Computer Science & Engineering, Daffodil International University</h3>
-            <h3>|CGPA: 4.00 | Expected Graduation: Summer 2027</h3>
+            <h3>B.Sc. in Computer Science & Engineering</h3>
+            <p>Daffodil International University</p>
+            <p><strong>CGPA:</strong> 4.00 | <strong>Expected Graduation:</strong> Summer 2027</p>
         </section>
 
         <section>
             <h2>Courses</h2>
-            <p>EDGE Python ML course: Completed in 2024</p>
-            <p>Microsoft Febric: Completed in 2024</p>
-            <p>Basic knowledge on C,Java(OOP),HTML,CSS,Python</p>
+            <p>✔ EDGE Python ML course – Completed in 2024</p>
+            <p>✔ Microsoft Fabric – Completed in 2024</p>
+            <p>✔ Basic knowledge of C, Java (OOP), HTML, CSS, Python</p>
         </section>
+
         <section>
-            <h2>PROJECT</h2>
-            <p>Fall 2023</p>
+            <h2>Projects</h2>
+            <p><strong>Fall 2023</strong></p>
             <div class="project">
-                <h3>Quiz app</h3>
-                <p>It's about giving a quiz exam. It was kind of level based game type</p>
-                <p>It was a simple consol app in C programing</p>
+                <h3>Quiz App</h3>
+                <p>A level-based quiz game developed as a console application using C programming.</p>
             </div>
-            <p style="margin-top:10px ;">Spring 2024</p>
+
+            <p><strong>Spring 2024</strong></p>
             <div class="project">
                 <h3>Guessing Game</h3>
-                <p>It's a bot that can guess the character that the user is thinking of. This was inspired by a game named Akinator</p>
-                <p>It was a simple consol app in C programing with the basic of Data Structure</p>
+                <p>A character guessing bot inspired by Akinator. Developed using basic data structures in C.</p>
             </div>
         </section>
+
         <section>
             <h2>Awards</h2>
-            <p>5th in Takeoff || Fall 2023</p>
+            <p>🏅 5th Position in "Takeoff" Competition – Fall 2023</p>
         </section>
+
         <section>
-            <h2>GOAL</h2>
-            <p>As a Computer Science & Engineer student with a strong foundation in programing languages and
-                a passion for technology, my goal is to become a proficient full-stack developer.
-                I aim to enhance my skill in both front-end and back-end technologies,leveraging my
-                understanding of languages and frameworks to build scalable, efficient and user-friendly application.
-            </p>
+            <h2>Goal</h2>
+            <p>As a Computer Science student with a strong foundation in programming and a passion for technology, my goal is to become a skilled full-stack developer. I aim to improve in both front-end and back-end development and use modern frameworks to build scalable and user-friendly applications.</p>
         </section>
-
-
     </div>
 </body>
 </html>
